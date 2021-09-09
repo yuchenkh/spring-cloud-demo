@@ -13,7 +13,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
-  type-aliases-package: org.example.user.entity
+  type-aliases-package: org.example.demo.user.entity
 
 logging:
   level:

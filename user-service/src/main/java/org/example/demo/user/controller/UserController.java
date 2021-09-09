@@ -32,7 +32,7 @@ public class UserController {
     }
 
     /**
-     * 路径： /user/110
+     * 路径： /user/2
      *
      * @param id 用户 ID
      * @param truth 该参数与 Request header {@code truth} 绑定

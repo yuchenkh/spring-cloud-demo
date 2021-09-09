@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>user-service</module>
+        <module>order-service</module>
     </modules>
 
     <!-- 在这里指定 Spring Boot 的版本 -->

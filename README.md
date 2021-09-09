@@ -8,5 +8,10 @@
 
 
 ## 新知识
- * (`user-service`) 外部配置 `mybatis.type-aliases-package` 是什么？
- * 主启动类上注解 `@MapperScan` 告诉 MyBatis Mapper 所在位置，用来注册 Mapper。
+### MyBatis
+ * （`user-service`）外部配置 `mybatis.type-aliases-package` 是什么？
+ * 主启动类上注解 `@MapperScan` 以定义 bean，否则 Spring 的 IoC 容器**自动装配**时不知道这个 mapper 的存在。 
+只要是一个 bean 依赖另一个 bean 的情况，这个被依赖的 bean 一定得有相应的注解，
+如 `@Component`，`@Configuration`，`@Service`和`@Mapper` 等。
+ * （Order Service）如果实体类的字段名采用驼峰命名，而数据库表中的字段名是下划线形式的，则需要在 properties file 中
+配置 `mybatis.configuration.map-underscore-to-camel-case`。
