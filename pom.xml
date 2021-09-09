@@ -6,6 +6,7 @@
     <modules>
         <module>user-service</module>
         <module>order-service</module>
+        <module>eureka-server</module>
     </modules>
 
     <!-- 在这里指定 Spring Boot 的版本 -->
@@ -36,14 +37,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Spring Boot -->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-dependencies</artifactId>-->
-<!--                <version>${spring-boot.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
             <!-- Spring Cloud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
