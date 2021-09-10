@@ -1,4 +1,4 @@
-package org.example.demo.user.config;
+package org.example.userservice.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

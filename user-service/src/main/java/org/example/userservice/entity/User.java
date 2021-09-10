@@ -1,4 +1,4 @@
-package org.example.demo.user.entity;
+package org.example.userservice.entity;
 
 import lombok.Data;
 

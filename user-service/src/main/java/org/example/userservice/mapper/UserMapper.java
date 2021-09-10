@@ -1,8 +1,8 @@
-package org.example.demo.user.mapper;
+package org.example.userservice.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.example.demo.user.entity.User;
+import org.example.userservice.entity.User;
 
 // Sep 8, 2021
 public interface UserMapper {

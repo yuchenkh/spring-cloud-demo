@@ -1,8 +1,8 @@
-package org.example.demo.user.service;
+package org.example.userservice.service;
 
 import lombok.RequiredArgsConstructor;
-import org.example.demo.user.entity.User;
-import org.example.demo.user.mapper.UserMapper;
+import org.example.userservice.entity.User;
+import org.example.userservice.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 
 // Sep 8, 2021

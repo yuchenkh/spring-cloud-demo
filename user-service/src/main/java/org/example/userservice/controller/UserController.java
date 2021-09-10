@@ -1,10 +1,10 @@
-package org.example.demo.user.controller;
+package org.example.userservice.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.example.demo.user.config.PatternProperties;
-import org.example.demo.user.entity.User;
-import org.example.demo.user.service.UserService;
+import org.example.userservice.config.PatternProperties;
+import org.example.userservice.entity.User;
+import org.example.userservice.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;

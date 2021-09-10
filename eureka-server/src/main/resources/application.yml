@@ -9,3 +9,5 @@ eureka:
   client:         # Eureka Server 本身也是一个 client
     service-url:
       defaultZone: http://localhost:10086/eureka
+    register-with-eureka: false
+    fetch-registry: false
